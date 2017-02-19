@@ -3,7 +3,6 @@
  * Author: Alexei Raiu.
  */
 (function($) {
-  'use strict';
   $.fn.iHide = function(msec, callback) {
     msec = typeof(msec) !== 'undefined' ? msec : 300;
     var xheight = this.innerHeight();
